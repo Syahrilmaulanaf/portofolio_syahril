@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Syahril Maulana Fikri, mahasiswa Teknik Informatika peminatan AI.">
+  <title>Syahril Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#syahril_isi" class="syahril_skip">Lewati ke konten utama</a>
+  <header id="syahril_header">
+    <nav class="syahril_navbar syahril_container" aria-label="Navigasi utama">
+      <a href="#syahril_home" class="syahril_logo"><span class="syahril_logo_kode">&lt;/&gt;</span> Syahril <span class="syahril_aksen">Portfolio</span></a>
+      <button type="button" id="syahril_tombol_menu" class="syahril_tombol_menu" aria-label="Buka menu" aria-expanded="false" aria-controls="syahril_menu">
+        <span class="syahril_garis"></span>
+        <span class="syahril_garis"></span>
+        <span class="syahril_garis"></span>
+      </button>
+      <ul id="syahril_menu" class="syahril_menu">
+        <li><a href="#syahril_home" class="syahril_menu_link">Home</a></li>
+        <li><a href="#syahril_about" class="syahril_menu_link">About</a></li>
+        <li><a href="#syahril_skills" class="syahril_menu_link">Skills</a></li>
+        <li><a href="#syahril_projects" class="syahril_menu_link">Projects</a></li>
+        <li><a href="#syahril_pendidikan" class="syahril_menu_link">Pendidikan</a></li>
+        <li><a href="#syahril_faq" class="syahril_menu_link">FAQ</a></li>
+        <li><a href="#syahril_kontak" class="syahril_menu_link">Kontak</a></li>
+        <li>
+          <button type="button" id="syahril_tombol_tema" class="syahril_tombol_tema" aria-label="Ganti tema gelap atau terang">&#127769;</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="syahril_isi">
+
+    <section id="syahril_home" class="syahril_hero">
+      <div class="syahril_container syahril_hero_isi">
+        <div class="syahril_hero_teks">
+          <p class="syahril_sapaan">Hello, I'm</p>
+          <h1 class="syahril_nama">Syahril <span class="syahril_aksen">Maulana Fikri</span></h1>
+          <p class="syahril_peran">Saya seorang <span id="syahril_ketik" class="syahril_ketik">Mahasiswa Informatika</span><span class="syahril_kursor" aria-hidden="true">|</span></p>
+          <p class="syahril_deskripsi">
+            Selamat datang di portofolio pribadi saya. Saya tertarik pada teknologi, pengembangan web, dan kecerdasan buatan untuk membangun solusi yang bermanfaat.
+          </p>
+          <div class="syahril_tombol_grup">
+            <a href="#syahril_about" class="syahril_btn syahril_btn_utama">&#128100; About Me</a>
+            <a href="#syahril_kontak" class="syahril_btn syahril_btn_garis">&#9993; Contact Me</a>
+          </div>
+        </div>
+
+        <div class="syahril_hero_gambar" aria-hidden="true">
+          <div class="syahril_blob"></div>
+          <div class="syahril_laptop">
+            <div class="syahril_layar">&lt;/&gt;</div>
+            <div class="syahril_dasar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="syahril_container">
+        <ul class="syahril_statistik" aria-label="Statistik singkat">
+          <li class="syahril_stat_kartu">
+            <strong class="syahril_angka" data-sumber="proyek" data-target="4">4</strong>
+            <span class="syahril_stat_label">Proyek</span>
+          </li>
+          <li class="syahril_stat_kartu">
+            <strong class="syahril_angka" data-sumber="skill" data-target="10">10</strong>
+            <span class="syahril_stat_label">Skill</span>
+          </li>
+          <li class="syahril_stat_kartu">
+            <strong class="syahril_angka" data-sumber="tetap" data-target="3">3</strong>
+            <span class="syahril_stat_label">Semester Kuliah</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="syahril_about" class="syahril_bagian syahril_muncul">
+      <div class="syahril_container syahril_about_isi">
+        <article class="syahril_about_teks">
+          <h2 class="syahril_judul">About Me</h2>
+          <p>
+            Saya mahasiswa S1 Teknik Informatika dengan peminatan Artificial Intelligence. Saat ini saya sedang mendalami pengembangan web, mulai dari HTML5, CSS, hingga JavaScript, dan senang belajar hal baru sambil berbagi pengetahuan.
+          </p>
+          <ul class="syahril_info">
+            <li>&#128205; Jawa Barat, Indonesia</li>
+            <li>&#9993; syahrilmaulana743@gmail.com</li>
+            <li>&#127891; S1 Teknik Informatika</li>
+          </ul>
+        </article>
+
+        <figure class="syahril_foto">
+          <span class="syahril_foto_inisial" aria-hidden="true">SM</span>
+          <img id="syahril_foto_img" src="images/foto_syahril.jpg" alt="Foto Syahril Maulana Fikri">
+        </figure>
+      </div>
+    </section>
+
+    <section id="syahril_skills" class="syahril_bagian syahril_bagian_abu syahril_muncul">
+      <div class="syahril_container">
+        <h2 class="syahril_judul">Skills</h2>
+        <ul class="syahril_skill_grid">
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">HTML5</span></div>
+            <p class="syahril_skill_ket">Form, elemen semantik, dan struktur halaman web.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">CSS3</span></div>
+            <p class="syahril_skill_ket">Flexbox, grid, variabel, dan desain responsif.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">JavaScript</span></div>
+            <p class="syahril_skill_ket">Interaksi halaman: menu, filter, popup, dan validasi form.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">Python</span></div>
+            <p class="syahril_skill_ket">Dasar pemrograman dan aplikasi Streamlit pada proyek Jarvis.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">PHP</span></div>
+            <p class="syahril_skill_ket">Baru kenal: server aplikasi untuk mengolah dan mengambil data dari database. Belum pernah praktik.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">MySQL</span></div>
+            <p class="syahril_skill_ket">Sedang belajar lewat mata kuliah Basis Data, memakai MySQL 8.0.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">Go</span></div>
+            <p class="syahril_skill_ket">Baru kenal: bahasa buatan Google yang populer untuk sisi belakang (backend). Belum pernah praktik.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">Git</span></div>
+            <p class="syahril_skill_ket">Dasar penyimpanan versi kode.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">GitHub</span></div>
+            <p class="syahril_skill_ket">Menyimpan proyek dan hosting lewat GitHub Pages.</p>
+          </li>
+          <li class="syahril_skill_kartu">
+            <div class="syahril_skill_atas"><img class="syahril_ikon_gambar" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" loading="lazy"><span class="syahril_skill_nama">VS Code</span></div>
+            <p class="syahril_skill_ket">Editor utama untuk menulis dan menguji kode.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="syahril_projects" class="syahril_bagian syahril_muncul">
+      <div class="syahril_container">
+        <h2 class="syahril_judul">My Projects</h2>
+
+        <div class="syahril_filter" role="group" aria-label="Filter proyek">
+          <button type="button" class="syahril_filter_btn syahril_aktif" data-filter="semua">Semua</button>
+          <button type="button" class="syahril_filter_btn" data-filter="html">HTML</button>
+          <button type="button" class="syahril_filter_btn" data-filter="css">CSS</button>
+          <button type="button" class="syahril_filter_btn" data-filter="python">Python</button>
+        </div>
+
+        <div class="syahril_project_grid">
+
+          <article class="syahril_project_kartu" data-kategori="html">
+            <div class="syahril_thumb syahril_thumb_1" aria-hidden="true">&#128221;</div>
+            <div class="syahril_project_isi">
+              <h3>Form Pendaftaran Member</h3>
+              <p>Form HTML5 dengan fieldset, validasi bawaan, dan halaman semantik.</p>
+              <span class="syahril_tag">HTML5</span>
+              <button type="button" class="syahril_detail_btn">Lihat Detail &rarr;</button>
+            </div>
+            <div class="syahril_detail" hidden>
+              <p>Halaman pendaftaran member yang dibuat dengan HTML5 murni, tanpa CSS dan JavaScript, sebagai latihan form dan elemen semantik pada mata kuliah Pemrograman Web.</p>
+              <h4>Fitur utama</h4>
+              <ul>
+                <li>Struktur semantik: header, nav, main, dan footer.</li>
+                <li>Dua fieldset: Data Diri dan Preferensi.</li>
+                <li>Beragam jenis input: teks, email, telepon dengan pattern, tanggal, kata sandi, radio, checkbox, dan select.</li>
+                <li>Validasi bawaan browser dengan atribut required dan minlength.</li>
+                <li>Tombol Daftar (submit) dan Hapus Isian (reset) dengan method GET.</li>
+              </ul>
+              <h4>Yang dipelajari</h4>
+              <ul>
+                <li>Memilih jenis input yang tepat untuk setiap data.</li>
+                <li>Menghubungkan label dan input dengan atribut for dan id.</li>
+                <li>Cara data form terkirim lewat URL dengan method GET.</li>
+              </ul>
+              <p class="syahril_detail_status">Status: tugas kuliah, dijalankan secara lokal.</p>
+            </div>
+          </article>
+
+          <article class="syahril_project_kartu" data-kategori="css">
+            <div class="syahril_thumb syahril_thumb_2" aria-hidden="true">&#9749;</div>
+            <div class="syahril_project_isi">
+              <h3>Layout Halaman Kopi</h3>
+              <p>Replika contoh layout halaman kopi sebagai latihan CSS: header, navbar, kolom, dan gambar.</p>
+              <span class="syahril_tag">CSS3</span>
+              <button type="button" class="syahril_detail_btn">Lihat Detail &rarr;</button>
+            </div>
+            <div class="syahril_detail" hidden>
+              <p>Replika dari contoh layout halaman toko kopi, dibuat untuk berlatih menata halaman dengan CSS pada mata kuliah Pemrograman Web.</p>
+              <h4>Fitur utama</h4>
+              <ul>
+                <li>Header dan navigasi yang ditata dengan CSS.</li>
+                <li>Tata letak beberapa kolom untuk isi halaman.</li>
+                <li>Gambar dan teks yang diatur posisinya.</li>
+                <li>Pewarnaan dan tipografi dasar.</li>
+              </ul>
+              <h4>Yang dipelajari</h4>
+              <ul>
+                <li>Selector class dan ID serta aturan penamaan.</li>
+                <li>Box model: margin, padding, dan border.</li>
+                <li>Mengatur tata letak halaman dengan CSS.</li>
+              </ul>
+              <p class="syahril_detail_status">Status: latihan meniru contoh, disimpan secara lokal.</p>
+            </div>
+          </article>
+
+          <article class="syahril_project_kartu" data-kategori="css html">
+            <div class="syahril_thumb syahril_thumb_3" aria-hidden="true">&#128187;</div>
+            <div class="syahril_project_isi">
+              <h3>Website Portofolio</h3>
+              <p>Portofolio pribadi dengan layout flexbox, grid, dan desain responsif.</p>
+              <span class="syahril_tag">HTML5</span> <span class="syahril_tag">CSS3</span> <span class="syahril_tag">JavaScript</span>
+              <button type="button" class="syahril_detail_btn">Lihat Detail &rarr;</button>
+            </div>
+            <div class="syahril_detail" hidden>
+              <p>Website portofolio satu halaman yang sedang kamu lihat ini, dibuat dengan HTML5, CSS3, dan JavaScript untuk tugas UTS Pemrograman Web.</p>
+              <h4>Fitur utama</h4>
+              <ul>
+                <li>Tujuh bagian dalam satu halaman dengan menu yang ikut menyala saat discroll.</li>
+                <li>Tampilan responsif dengan flexbox, grid, dan media query, termasuk menu hamburger di layar kecil.</li>
+                <li>Tema gelap dan terang yang tersimpan di browser.</li>
+                <li>Interaksi JavaScript: teks ketik, filter proyek, FAQ, popup detail, dan hitung angka statistik.</li>
+                <li>Form kontak dengan validasi JavaScript.</li>
+              </ul>
+              <h4>Yang dipelajari</h4>
+              <ul>
+                <li>Membuat layout responsif dari satu kode untuk semua ukuran layar.</li>
+                <li>Mengelola elemen halaman dan event dengan JavaScript.</li>
+                <li>Aturan penamaan class dan ID dengan awalan nama sendiri.</li>
+              </ul>
+              <p class="syahril_detail_status">Status: tugas UTS Pemrograman Web.</p>
+            </div>
+          </article>
+
+          <article class="syahril_project_kartu" data-kategori="python">
+            <div class="syahril_thumb syahril_thumb_4" aria-hidden="true">&#9201;</div>
+            <div class="syahril_project_isi">
+              <h3>Jarvis Deep Work Timer</h3>
+              <p>Aplikasi timer fokus bertema Marvel dengan Python, Streamlit, dan Linked List.</p>
+              <span class="syahril_tag">Python</span> <span class="syahril_tag">Streamlit</span>
+              <button type="button" class="syahril_detail_btn">Lihat Detail &rarr;</button>
+            </div>
+            <div class="syahril_detail" hidden>
+              <p>Aplikasi Python bertema Marvel untuk mengatur waktu fokus dan mencatat evaluasi harian.</p>
+              <h4>Fitur utama</h4>
+              <ul>
+                <li>Deep Work Timer: hitung mundur jam, menit, dan detik dengan suara pengingat serta pencatatan otomatis saat sesi selesai.</li>
+                <li>Daily Evaluation: mencatat jam tidur, belajar koding, dan skor produktivitas 1 sampai 10 beserta saran.</li>
+                <li>System Memory: riwayat catatan dari file teks ditampilkan dengan struktur data Linked List, terbaru di atas.</li>
+                <li>Akses dengan verifikasi nama sederhana.</li>
+              </ul>
+              <h4>Yang dipelajari</h4>
+              <ul>
+                <li>Membuat antarmuka aplikasi dengan Streamlit.</li>
+                <li>Membaca dan menulis file teks dengan Python.</li>
+                <li>Menerapkan Linked List: menambah data di depan dan menelusuri isi.</li>
+              </ul>
+              <p class="syahril_detail_status">Status: file proyek ada di komputer, saat ini belum berjalan dengan baik dan masih perlu diperbaiki.</p>
+            </div>
+          </article>
+
+        </div>
+        <p id="syahril_kosong" class="syahril_kosong" hidden>Belum ada proyek di kategori ini.</p>
+      </div>
+    </section>
+
+    <section id="syahril_pendidikan" class="syahril_bagian syahril_bagian_abu syahril_muncul">
+      <div class="syahril_container">
+        <h2 class="syahril_judul">Pendidikan &amp; Perjalanan Belajar</h2>
+        <ol class="syahril_timeline">
+          <li class="syahril_timeline_item">
+            <span class="syahril_timeline_tahun">2025</span>
+            <h3>Mulai Kuliah S1 Teknik Informatika</h3>
+            <p>Memulai perkuliahan dan mengenal dasar pemrograman serta logika komputasi.</p>
+          </li>
+          <li class="syahril_timeline_item">
+            <span class="syahril_timeline_tahun">2026</span>
+            <h3>Belajar Pemrograman Web</h3>
+            <p>Mempelajari HTML5 semantik, form, CSS layout, hingga JavaScript interaktif.</p>
+          </li>
+          <li class="syahril_timeline_item">
+            <span class="syahril_timeline_tahun">2026</span>
+            <h3>Peminatan Artificial Intelligence</h3>
+            <p>Memperdalam minat di bidang AI dan membuat aplikasi Python pertama.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="syahril_faq" class="syahril_bagian syahril_muncul">
+      <div class="syahril_container syahril_faq_wadah">
+        <h2 class="syahril_judul">Pertanyaan Umum</h2>
+        <div id="syahril_faq_daftar">
+          <details class="syahril_faq_item">
+            <summary>Apa yang sedang kamu pelajari sekarang?</summary>
+            <p>Saya sedang fokus pada pengembangan web (HTML5, CSS, JavaScript) dan dasar-dasar Artificial Intelligence dengan Python.</p>
+          </details>
+          <details class="syahril_faq_item">
+            <summary>Apakah terbuka untuk kolaborasi proyek?</summary>
+            <p>Terbuka. Silakan kirim pesan lewat formulir di bagian Kontak dan ceritakan idenya.</p>
+          </details>
+          <details class="syahril_faq_item">
+            <summary>Bagaimana cara menghubungi saya?</summary>
+            <p>Gunakan formulir pada bagian Kontak di bawah, atau kirim email langsung ke syahrilmaulana743@gmail.com.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="syahril_kontak" class="syahril_bagian syahril_bagian_abu syahril_muncul">
+      <div class="syahril_container syahril_kontak_isi">
+        <div class="syahril_kontak_info">
+          <h2 class="syahril_judul">Kontak</h2>
+          <p>Punya pertanyaan atau ingin bekerja sama? Isi formulir ini dan pesanmu akan dikirim ke email saya.</p>
+          <ul class="syahril_info syahril_info_kolom">
+            <li>&#9993; syahrilmaulana743@gmail.com</li>
+            <li>&#128205; Jawa Barat, Indonesia</li>
+          </ul>
+        </div>
+
+        <form id="syahril_form" class="syahril_form" novalidate>
+          <p class="syahril_field">
+            <label for="syahril_nama_input">Nama Lengkap</label>
+            <input type="text" id="syahril_nama_input" name="nama" placeholder="Masukkan nama lengkap" autocomplete="name" required>
+            <span class="syahril_error" id="syahril_error_nama" aria-live="polite"></span>
+          </p>
+
+          <p class="syahril_field">
+            <label for="syahril_email_input">Email</label>
+            <input type="email" id="syahril_email_input" name="email" placeholder="nama@email.com" autocomplete="email" required>
+            <span class="syahril_error" id="syahril_error_email" aria-live="polite"></span>
+          </p>
+
+          <p class="syahril_field">
+            <label for="syahril_subjek_input">Subjek</label>
+            <select id="syahril_subjek_input" name="subjek">
+              <option value="Pertanyaan">Pertanyaan</option>
+              <option value="Kolaborasi">Kolaborasi</option>
+              <option value="Saran">Saran</option>
+              <option value="Lainnya">Lainnya</option>
+            </select>
+          </p>
+
+          <p class="syahril_field">
+            <label for="syahril_pesan_input">Pesan</label>
+            <textarea id="syahril_pesan_input" name="pesan" rows="5" maxlength="500" placeholder="Tulis pesanmu di sini" required></textarea>
+            <span class="syahril_hitung"><span id="syahril_hitung_angka">0</span>/500</span>
+            <span class="syahril_error" id="syahril_error_pesan" aria-live="polite"></span>
+          </p>
+
+          <div class="syahril_tombol_grup">
+            <button type="submit" class="syahril_btn syahril_btn_utama">Kirim Pesan</button>
+            <button type="reset" class="syahril_btn syahril_btn_garis">Hapus Isian</button>
+          </div>
+          <p id="syahril_status" class="syahril_status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <footer id="syahril_footer">
+    <div class="syahril_container">
+      <div class="syahril_footer_atas">
+        <div class="syahril_footer_brand">
+          <strong>Syahril <span class="syahril_aksen_terang">Portfolio</span></strong>
+          <small>Build, Learn, and Share Knowledge</small>
+        </div>
+        <ul class="syahril_footer_kontak">
+          <li>&#9993; syahrilmaulana743@gmail.com</li>
+          <li>&#128205; Jawa Barat, Indonesia</li>
+        </ul>
+      </div>
+      <p class="syahril_footer_hak">
+        &copy; <span id="syahril_tahun">2026</span> Syahril Portfolio. All rights reserved.<br>
+        Syahril Maulana Fikri | NIM 2503010014 | Teknik Informatika - A | Pemrograman Web
+      </p>
+    </div>
+  </footer>
+
+  <dialog id="syahril_dialog" class="syahril_dialog" aria-labelledby="syahril_dialog_judul">
+    <div class="syahril_dialog_kepala">
+      <h3 id="syahril_dialog_judul" class="syahril_dialog_judul"></h3>
+      <button type="button" id="syahril_dialog_tutup" class="syahril_dialog_tutup" aria-label="Tutup detail">&times;</button>
+    </div>
+    <div id="syahril_dialog_tag" class="syahril_dialog_tag"></div>
+    <div id="syahril_dialog_isi" class="syahril_dialog_isi"></div>
+  </dialog>
+
+  <button type="button" id="syahril_ke_atas" class="syahril_ke_atas" aria-label="Kembali ke atas" hidden>&#8593;</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
